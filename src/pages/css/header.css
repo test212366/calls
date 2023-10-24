@@ -1,0 +1,26 @@
+.header__items {
+	padding: 0 20px;
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	align-items: center;
+}
+.header__logo {
+	display: flex;
+	align-items: center;
+	font-size: 18px;
+	font-weight: 500;
+ 
+}
+.header__notification svg{
+	fill: rgb(39, 39, 39);
+	cursor: pointer;
+	transition: .3s ease all;
+}
+.header__notification svg:hover {
+	fill: var(--theme);
+}
+.header__logo svg {
+	margin-right: 4px;
+	fill: var(--theme);
+}
